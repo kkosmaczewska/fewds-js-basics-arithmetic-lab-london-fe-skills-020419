@@ -21,6 +21,6 @@ let randomInteger ;
 randomInteger = Math.floor(randomNumber) ;
 
 let randomUserID ;
-randomUserID = randomInteger
+randomUserID = Number.isInteger(randomInteger) ;
 
 // Math.floor(Math.random() * 20) + 1000000001; //
